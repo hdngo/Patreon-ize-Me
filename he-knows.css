@@ -1,0 +1,378 @@
+html{
+	font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F2F1EF;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'LeagueGothicRegular', 'Impact', Charcoal, Arial, Gadget, sans-serif
+}
+
+h2{
+	color: #404040;
+}
+
+#dont-leave-me-navbar, #oh-you-made-it-to-the-footer{
+	background-color: #232D32;
+}
+
+#borrowed-logo{
+	height: 29px;
+	width: 29px;
+	margin: 7px 25px 3px 20px;
+}
+
+#tricky-links{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#tricky-links > li, #page-links > li{
+	display: inline-block;
+	vertical-align: middle
+}
+
+#tricky-links > li > a{
+	color: #E8EBEB;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+#minified-glass{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+}
+
+#curious-george-you-is{
+	width: 250px;
+}
+
+#curious-george-you-is > input{
+	width: 100%;
+	background-color: #4f575b;
+	border: 1px solid #4f575b;
+	padding: 7px 6px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-indent: 5px;
+	vertical-align: middle;
+}
+
+#avatar{
+    height: 35px;
+    width: 35px;
+	  margin-top: 4px;
+    margin-right: 35px;
+    border-radius: 50%;
+    float: right;
+}
+
+.center-txt{
+	text-align: center;
+}
+
+.in-bl{
+	display: inline-block;
+}
+
+#fake-float{
+	margin-left: 350px;
+}
+
+#who-am-i{
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+#useful-things{
+	color: #FF5900;
+}
+
+#my-page{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about-me{
+	width: 25%;
+	margin-right: 2.5%;
+	background-color: #F2F1EF;
+	display:block;
+	float: left;
+}
+
+#talk-for-free{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: none
+}
+
+#talk-for-free > p{
+	margin: 10px;
+	font-weight:600;
+}
+
+#my-campaign{
+	width: 72.5%;
+	background-color: #F2F1EF;
+	display:block;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.aside{
+	font-size:10px;
+	color: #888888;
+}
+
+.green-txt{
+	color: #4C8E41;
+}
+
+.patreon-orange-txt{
+	color: #FF5900;
+}
+
+.patronage{
+	width: 100%;
+	height: 213px;
+}
+
+#patreonize-me{
+	height: 50px;
+	background-color: #FF5900;
+	border: none;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#stats{
+	background-color: #F7F7F7;
+	text-align: right;
+	padding-top: 15px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#stats > p, #stats > h3{
+	padding-right: 15px;
+}
+
+.grey-like-my-bank-account-color{
+	color: #888888;
+}
+
+.insanely-large-number{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 42px;
+}
+
+#stats > p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#patron-info{
+	border: 2px solid #EEE;
+	margin-top: 38px;
+}
+
+#milestones-section{
+	border: 2px solid #EEE;
+}
+
+#milestones{
+	margin-bottom: 0;
+}
+
+#toggle-milestones-btn{
+	cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 0;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  margin-top: 0;
+}
+
+#milestones-reached{
+	background-color: #F7F7F7;
+}
+
+#past-milestones{
+	display: none;
+	padding: 0;
+	text-align: right;
+	margin-top: 0;
+}
+
+#past-milestones > li > p, #past-milestones > li> h2{
+	padding-right: 10px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+#past-milestones > li > p{
+	margin-top: 2px;
+}
+
+#past-milestones > li{
+	padding-top: 1px;
+	list-style: none;
+	border-bottom: 1px solid #EEE;
+	width: 100%;
+}
+
+.milestone-txt{
+	font-size: 12px;
+	color: #888888;
+}
+
+#current-milestone{
+	text-align: right;
+}
+
+#current-milestone > p, #current-milestone > h2{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+
+#profile{
+	border: 1px solid #EEE;
+	padding: 2px;
+}
+
+#profile > img{
+	width: 100%;
+}
+
+#sites li{
+	list-style: none;
+}
+
+#sites > li > a{
+	color: #708CB7;
+	vertical-align: middle
+}
+
+.white-bg{
+	background-color: white;
+}
+
+.social-media-icon{
+	height: 16px;
+	width: 16px;
+	border: 1px solid #807C7B;
+	border-radius: 3px;
+	padding: 2px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+#page-links{
+	margin-bottom: 0;
+}
+
+#page-links > li{
+	padding-bottom: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 4px solid #F2F1EF;
+	margin-right: 1px;
+	text-align: center;
+}
+
+#page-links > li:hover{
+	border-bottom: 4px solid #2A5096;
+}
+
+#page-links > li > a:hover{
+	color: #2A5096;
+}
+
+#another-about-section, #an-iDeer, #videos{
+	margin-top: 20px;
+	padding: 10px 30px 30px 30px;
+	font-size: 20px;
+}
+
+#oh-you-made-it-to-the-footer{
+	bottom: 0;
+	display: block;
+	float: right;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+}
+
+#page-links> li#media-list{
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	border-bottom: none;
+	padding-left: 0;
+	float: right;
+}
+
+#media-kit{
+	height: 28px;
+  width: 232px;
+}
+
+#media-kit:hover{
+	cursor: pointer;
+}
+
+#dropdown-menu{
+	display: none;
+	list-style: none;
+	position: absolute;
+	right: 0;
+	margin-top: 0;
+	z-index: 1;
+}
+
+#dropdown-menu > li{
+	background-color: white;
+	border: 1px solid #F2F1EF;
+	border-top: none;
+	padding-left: 20px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+#dropdown-menu > li > a{
+	color: black;
+	font-size: 14px;
+}
+
+#dropdown-menu > li:hover{
+	background-color: #EEE;
+}
+
+.active-menu{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+	
